@@ -1,3 +1,7 @@
+.common{
+  position: absolute;
+  /* border: 2px solid black; */
+}
 .upper{
     background-color: red;
 
@@ -5,6 +9,10 @@
 .navbar{
     color: black;
     text-decoration: none;
+    right: 5px;
+    top: 5px;
+    z-index: 2;
+
     
 }
 .navbar:hover{
@@ -23,9 +31,6 @@
   .li{
     display: inline;
     padding-right:  8px;
-  }
-  .content{
-    background-color: peachpuff;
   }
   img, .imgtall{
     height: 300 px;
@@ -46,16 +51,35 @@
     font-weight: 300;
     margin-bottom: 0.625rem;
   }
-  .footerdiv{
-      background-color: whitesmoke;
-  }
   .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    text-align: center;
   }
   .ranking {
     text-decoration: underline;
     background-color: aliceblue;
   }
+  .mainbody {
+    top: 114px;
+    right: 5px;
+    left: 5px;
+    bottom: 54px;
+  }
+  .header{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 1;
+  }
+  .footer{
+    background-color: whitesmoke;
+    bottom: 5px;
+    height: 50px;
+    right: 5px;
+    left: 5px;
+    position: fixed;
+}
