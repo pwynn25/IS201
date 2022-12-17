@@ -83,3 +83,8 @@
     left: 5px;
     position: fixed;
 }
+.headertext{
+  color: #555555;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
